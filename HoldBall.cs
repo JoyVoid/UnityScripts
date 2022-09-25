@@ -14,16 +14,10 @@ public class HoldBall : MonoBehaviour
     {
         if(hitObject.tag == "Ball")
         {
-            //Northeast
-            //currentPosition = transform.position + new Vector3(movementSpeed*Time.deltaTime , offset*movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime);
+            ementSpeed*Time.deltaTime);
             //directly above
-            //currentPosition = transform.position + new Vector3(0f , offset*movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime);
-            //directly above
-            //currentPosition = transform.position + new Vector3(movementSpeed*Time.deltaTime , offset*movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime);
-            //NorthEast
-            //currentPosition = transform.position + new Vector3(offset*movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime);
-            //
-            //currentPosition = transform.position + new Vector3(movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime , offset*movementSpeed*Time.deltaTime);
+            //currentPosition = transform.position + new Vector3(0f , offset*movementSpeed*Time.deltaTime , movementSpeed*Time.deltaTime)
+            
             Debug.Log("current position: " + currentPosition);
             Debug.Log("transform: "+ transform.position);
     
